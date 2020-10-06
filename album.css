@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Ortica-Bold";
+  src: url("fonts/Ortica-Bold.woff2") format("woff2"),
+       url("fonts/Ortica-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ortica-Light";
+  src: url("fonts/Ortica-Light.woff2") format("woff2"),
+       url("fonts/Ortica-Light.woff") format("woff");
+}
+
+body {
+  padding-bottom: 20px;
+  font-family: ortica-light;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+}
+
+
+.container {
+  max-width: 960px;
+  text-align:center;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.bg-pinky {
+  background-color: #c47574!important;
+}
+
+section .blog-post {
+  padding: 200px 0;
+}
+
+.card {
+  border: 0px;
+  background-color: inherit;
+}
+.card img {
+  width: 75%;
+  height: auto;
+  margin:0 auto;
+  padding-top: 10px;
+}
+
+.card img:hover {
+  opacity:0.5;
+}
+
+h1, h2 {
+  font-family: ortica-bold;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+
+h3 {
+  font-size: 1.25em;
+  text-align: center;
+  text-transform:uppercase;
+  color: #00002a;
+  font-family: ortica-bold;
+}
+
+h4 {
+  font-size: 1.1em;
+  text-align: center;
+  text-transform:uppercase;
+  color: #000000;
+  font-family: ortica-bold;
+}
+
+.card-text {
+  text-align: center;
+  text-transform:uppercase;
+  color: #000000;
+  font-family: ortica-light;
+}
+
+.blog-post ul {
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.blog-post ul li {
+  display: inline;
+  border: 1px solid #000000;
+  border-radius: .25rem;
+  padding: 0.75rem 0.5rem;
+  background-color: #ffffff;
+}
+
+.blog-post ul li:hover {
+  border: 1px solid #444444;
+  background-color: #444444;
+}
+
+.blog-post ul li a {
+  color: #444444;
+}
+
+.blog-post ul li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.navbar {
+  margin-bottom: 20px;
+}
